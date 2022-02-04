@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(79.15deg,
+    #290853 16.62%, #640b0b 75.61%);
+}
+
+/* cabeçalho */
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cab-txt{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    font-weight: 300;
+    color: rgb(192, 192, 192); 
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(134, 134, 134);
+    margin-bottom: 23px;
+}
+
+:root{
+    
+    --border-cor: #DADCE0;
+}
+
+.input-number::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+.input-number{
+    position: relative;
+    font-size: 25px;
+    border: 1px solid var(--border-cor);
+    border-radius: .3rem;
+    outline: none;
+    padding: 1rem;
+    background: none;
+    color: aliceblue;
+}
+
+.operadores{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.opera-div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btn{
+    
+    background-color: #f7f7f7;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 40;
+    font-size: 24px;
+    color: #530808;
+    margin-bottom: 50px;
+}
+
+.btn:hover{
+    background-color: #000000;
+    color: #1d1161;
+}
+
+.rodape{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 76.5px;
+}
+
+.resultado-rodape{
+    color: #DADCE0;
+    font-family: 'Righteous', cursive;
+    width: 180px;
+    height: 80px;
+    font-size: 32px;
+    background-color: #290853;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}

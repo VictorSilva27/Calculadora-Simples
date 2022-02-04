@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site focado em Html e Css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="cabecalho">
+
+            <p class="cab-txt">Calculadora</p>
+
+    </header>
+
+
+
+    <!-- Principal -->
+
+    <main class="calculadora">
+
+        <section class="principal">
+
+            <div class="principal-escrito">
+                <input class="input-number" type="text" id="num1" placeholder="Digite o 1º Valor">
+
+                <input class="input-number" type="text" id="num2" placeholder=" Digite o 2º Valor">
+
+
+                <h3 class="subtitulo">(Escolha um <strong>operador</strong>)</h3>
+            </div>
+        </section>
+
+            
+        <section class="operadores">
+                <div class="opera-div">
+                    <button class="btn" onclick="Adicao()">Adição</button>
+                    <button class="btn" onclick="Subtracao()">Subtração</button>
+                    <button class="btn" onclick="Multiplicacao()">Multiplicação</button>
+                    <button class="btn" onclick="Divisao()">Divisão</button>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <button class="resultado-rodape" id="resultado">Resultado</button>
+
+
+    </footer>
+
+
+    <script src="js/calcular.js"></script>
+</body>
+</html>
