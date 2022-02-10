@@ -1,43 +1,20 @@
-function Adicao(){
-                    
-    var num1 = document.getElementById('num1').value;
-    var num2 = document.getElementById('num2').value;
+function Calcular(funcao){
 
-    var resultado = parseInt(num1) + parseInt(num2);
+    var numero_1 = parseInt(document.getElementById('num1').value);
 
-    document.getElementById('resultado').innerText = resultado;
-}
+    var numero_2 = parseInt(document.getElementById('num2').value);
 
-function Subtracao(){
-                    
-    var num1 = document.getElementById('num1').value;
-    var num2 = document.getElementById('num2').value;
 
-    var resultado = parseInt(num1) - parseInt(num2);
-
-    document.getElementById('resultado').innerText = resultado;
-}
-
-function Multiplicacao(){
-                    
-    var num1 = document.getElementById('num1').value;
-    var num2 = document.getElementById('num2').value;
-
-    var resultado = parseInt(num1) * parseInt(num2);
-
-    document.getElementById('resultado').innerText = resultado;
-}
-
-function Divisao(){
-                    
-    var num1 = document.getElementById('num1').value;
-    var num2 = document.getElementById('num2').value;
-
-    var resultado = parseInt(num1) / parseInt(num2);
-
-    document.getElementById('resultado').innerText = resultado;
-}
-function Macks(){
-
-    document.getElementById('resultado').innerText = "Resultado";
+    switch(funcao){
+        case 'somar': return Somar(numero_1, numero_2);
+            break;
+        case 'subtrair': return Subtrair(numero_1, numero_2);
+            break;
+        case 'dividir': return Dividir(numero_1, numero_2);
+            break;
+        case 'multiplicar': return Multiplicar(numero_1, numero_2);
+            break;
+        default: 
+            document.getElementById('resultado').innerText = "Resultado";
+    }
 }

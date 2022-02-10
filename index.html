@@ -38,10 +38,10 @@
             
         <section class="operadores">
                 <div class="opera-div">
-                    <button class="btn" onclick="Adicao()">Adição</button>
-                    <button class="btn" onclick="Subtracao()">Subtração</button>
-                    <button class="btn" onclick="Multiplicacao()">Multiplicação</button>
-                    <button class="btn" onclick="Divisao()">Divisão</button>
+                    <button class="btn" onclick="Calcular('somar')">Adição</button>
+                    <button class="btn" onclick="Calcular('subtrair')">Subtração</button>
+                    <button class="btn" onclick="Calcular('multiplicar')">Multiplicação</button>
+                    <button class="btn" onclick="Calcular('dividir')">Divisão</button>
                 </div>
         </section>
 
@@ -49,7 +49,7 @@
 
     <footer class="rodape">
 
-        <button class="resultado-rodape" id="resultado" onblur="Macks(this).value">Resultado</button>
+        <button class="resultado-rodape" id="resultado" onblur="Calcular('mascks')">Resultado</button>
 
 
     </footer>
@@ -59,6 +59,6 @@
     <script src="js/adicao.js"></script>
     <script src="js/subtracao.js"></script>
     <script src="js/divisao.js"></script>
-    <script src="js/nuktiplicacao.js"></script>
+    <script src="js/multiplicacao.js"></script>
 </body>
 </html>
