@@ -6,13 +6,13 @@ function Calcular(funcao){
 
 
     switch(funcao){
-        case 'somar': return Somar(numero_1, numero_2);
+        case 'somar': Somar(numero_1, numero_2);
             break;
-        case 'subtrair': return Subtrair(numero_1, numero_2);
+        case 'subtrair': Subtrair(numero_1, numero_2);
             break;
-        case 'dividir': return Dividir(numero_1, numero_2);
+        case 'dividir': Dividir(numero_1, numero_2);
             break;
-        case 'multiplicar': return Multiplicar(numero_1, numero_2);
+        case 'multiplicar': Multiplicar(numero_1, numero_2);
             break;
         default: 
             document.getElementById('resultado').innerText = "Resultado";

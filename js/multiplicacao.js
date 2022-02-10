@@ -1,6 +1,4 @@
 function Multiplicar(numero_1, numero_2){
     
-    var resultado = numero_1 * numero_2;
-    
-    return document.getElementById('resultado').innerText = resultado;
+    document.getElementById('resultado').innerText = numero_1 * numero_2;
 }
