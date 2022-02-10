@@ -8,8 +8,7 @@
 }
 body{
     font-size: 100%;
-    background: linear-gradient(79.15deg,
-    #290853 16.62%, #640b0b 75.61%);
+    background-color: #0d0442;
 }
 
 /* cabeçalho */
@@ -39,14 +38,14 @@ body{
 .principal-escrito{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 .subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: rgb(134, 134, 134);
-    margin-bottom: 23px;
+    margin-bottom: 30px;
 }
 
 :root{
@@ -105,7 +104,6 @@ body{
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-bottom: 76.5px;
 }
 
 .resultado-rodape{

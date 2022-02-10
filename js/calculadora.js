@@ -37,3 +37,7 @@ function Divisao(){
 
     document.getElementById('resultado').innerText = resultado;
 }
+function Macks(){
+
+    document.getElementById('resultado').innerText = "Resultado";
+}

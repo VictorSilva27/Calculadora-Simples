@@ -26,9 +26,9 @@
         <section class="principal">
 
             <div class="principal-escrito">
-                <input class="input-number" type="text" id="num1" placeholder="Digite o 1º Valor">
+                <input class="input-number" type="number" id="num1" placeholder="Digite o 1º Valor">
 
-                <input class="input-number" type="text" id="num2" placeholder=" Digite o 2º Valor">
+                <input class="input-number" type="number" id="num2" placeholder=" Digite o 2º Valor">
 
 
                 <h3 class="subtitulo">(Escolha um <strong>operador</strong>)</h3>
@@ -49,12 +49,16 @@
 
     <footer class="rodape">
 
-        <button class="resultado-rodape" id="resultado">Resultado</button>
+        <button class="resultado-rodape" id="resultado" onblur="Macks(this).value">Resultado</button>
 
 
     </footer>
 
 
-    <script src="js/calcular.js"></script>
+    <script src="js/calculadora.js"></script>
+    <script src="js/adicao.js"></script>
+    <script src="js/subtracao.js"></script>
+    <script src="js/divisao.js"></script>
+    <script src="js/nuktiplicacao.js"></script>
 </body>
 </html>
